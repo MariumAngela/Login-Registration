@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Kerala Tourism</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,6 +21,12 @@
               <li class="nav-item">
                 <a class="nav-link" href="home.php">Home</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="feautures.php">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.php">Gallery</a>
+              </li>
               
             </ul>
           </div>
@@ -29,18 +35,18 @@
 
     <div class="container">
         <div class="row">
-            <div class="col col-12 col-sm-12 col-md-12 ">
+            <div class="col col-12 col-sm-12 col-md-12 col-lg-12">
                 
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img height = "500px" src="Images\1.jpg" class="d-block w-100" alt="...">
+                        <img height = "300px" width="400px" src="Images\1.jpg" class="d-block w-100" alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img height = "500px"  src="Images\2.jpg" class="d-block w-100" alt="...">
+                        <img height = "300px" width="400px" src="Images\2.jpg" class="d-block w-100" alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img height = "500px" src="Images\3.jpg" class="d-block w-100" alt="...">
+                        <img height = "300px" width="400px"  src="Images\3.jpg" class="d-block w-100" alt="...">
                       </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
